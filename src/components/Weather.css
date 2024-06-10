@@ -29,3 +29,38 @@
     background: #ebfffc;
     cursor: pointer;
 }
+.weatherIcon{
+    width: 150px;
+    margin: 30px 0;
+
+}
+.temperature{
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+}
+.location{
+    color: #fff;
+    font-size: 40px;
+}
+.weatherData{
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.weatherData .col{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+.weatherData .col span{
+    display: block;
+    font-size: 16px;
+}
+.weatherData .col img{
+    width: 26px;
+    margin-top: 10px;
+}
